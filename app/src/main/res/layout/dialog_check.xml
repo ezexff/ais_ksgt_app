@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingTop="7dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/black">
+            <TextView
+                android:id="@+id/dtvObjectName"
+                android:paddingLeft="7dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Наименование объекта"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:paddingLeft="14dp"
+                android:paddingBottom="7dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Подконтрольный объект"
+                android:textColor="#c0c0c0"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/dbtnNoDelict"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="Без замечаний"
+                android:textStyle="normal"
+                android:background="@drawable/button"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Button
+                android:id="@+id/dbtnAddDelict"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="Есть нарушения"
+                android:textStyle="normal"
+                android:background="@drawable/button"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Button
+                android:id="@+id/dbtnNotCheked"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="Без проверки"
+                android:textStyle="normal"
+                android:background="@drawable/button"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+</ScrollView>

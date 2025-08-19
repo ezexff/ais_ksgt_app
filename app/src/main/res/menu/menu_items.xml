@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<!--
+    <group android:title="Дата" >
+        <item android:title="Дата">
+            <menu>
+                <item
+                    android:id="@+id/changeDate"
+                    android:title="Изменить"
+                    android:icon="@drawable/ic_menu_change_date"
+                    />
+            </menu>
+        </item>
+    </group>
+-->
+    <group android:title="Загрузка планов обхода" >
+        <item android:title="Загрузка планов обхода">
+            <menu>
+                <item
+                    android:id="@+id/getPlansAndObjects"
+                    android:title="Загрузить"
+                    android:icon="@drawable/ic_menu_show_downloaded_plans"
+                    />
+            </menu>
+        </item>
+    </group>
+
+    <group android:title="Загруженные планы обхода" >
+        <item android:title="Загруженные планы обхода">
+            <menu>
+                <item
+                    android:id="@+id/showPlans"
+                    android:title="Открыть"
+                    android:icon="@drawable/ic_menu_show_plans"
+                    />
+            </menu>
+        </item>
+    </group>
+
+    <!--<group android:title="Резервная копия планов" >
+        <item android:title="Резервная копия планов">
+            <menu>
+                <item
+                    android:id="@+id/makePlansCopy"
+                    android:title="Сделать копию"
+                    android:icon="@drawable/ic_menu_make_plans_copy"
+                    />
+
+                <item
+                    android:id="@+id/getPlansCopy"
+                    android:title="Заменить планы копией"
+                    android:icon="@drawable/ic_menu_get_plans_copy"
+                    />
+            </menu>
+        </item>
+    </group>-->
+
+    <group android:title="Выгрузка результатов обхода" >
+        <item android:title="Выгрузка результатов обхода">
+            <menu>
+                <item
+                    android:id="@+id/sendObjects"
+                    android:title="Выгрузить"
+                    android:icon="@drawable/ic_menu_send_result"
+                    />
+            </menu>
+        </item>
+    </group>
+
+    <group android:title="Обновить виды правонарушений" >
+        <item android:title="Обновить виды правонарушений">
+            <menu>
+                <item
+                    android:id="@+id/getDictionary"
+                    android:title="Обновить"
+                    android:icon="@drawable/ic_menu_get_dictionary"
+                    />
+            </menu>
+        </item>
+    </group>
+
+    <!--
+    <item
+        android:id="@+id/getDictionary"
+        android:title="Виды правонарушений"
+        android:icon="@drawable/ic_menu_get_dictionary"
+        />
+
+    <item
+        android:id="@+id/showDownloadedPlans"
+        android:title="Загруженные планы"
+        android:icon="@drawable/ic_menu_show_downloaded_plans"
+        />
+    <item
+        android:id="@+id/showSavedCopyPlans"
+        android:title="Сохранённые копии"
+        android:icon="@drawable/ic_menu_show_copy_plans"
+        />
+    -->
+</menu>

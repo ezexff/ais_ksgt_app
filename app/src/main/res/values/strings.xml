@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">АИС КСГТ</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="TextSymbols">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя!"#$%'()*+,-./:=?@[\]^_`{}~ ;</string>
+
+    <!-- Пространство имён веб-сервиса -->
+    <string name="WebServiceNAMESPACE">http://ais_ksgt_service.com/</string>
+
+    <!-- Ссылка на публичный/локальный веб-сервис -->
+    <string name="WebServiceURL">http://192.168.50.37:8084/ais_ksgt_service</string>
+
+    <!-- Время ожидания ответа от веб-сервиса(мс) -->
+    <integer name="TIMEOUT">5000</integer>
+
+    <!-- Качество изображения (от 0 до 100) -->
+    <integer name="BITMAP_QUALITY">40</integer>
+
+    <!-- Сжимать исходное фото с камеры/галереи до BITMAP_MAXWIDTH ширины, с сохранением пропорций -->
+    <integer name="BITMAP_MAXWIDTH">900</integer>
+</resources>
